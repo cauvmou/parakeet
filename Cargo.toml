@@ -1,0 +1,8 @@
+[package]
+name = "parakeet"
+authors = ["cauvmou"]
+version = "0.1.0"
+edition = "2021"
+description = "A simple packet sniffer, this exists to proofe a point."
+
+[dependencies]
