@@ -6,3 +6,10 @@ edition = "2021"
 description = "A simple packet sniffer, this exists to proofe a point."
 
 [dependencies]
+pcap = { version = "1", features = ["capture-stream"] }
+iced = "0.10.0"
+log = { version = "0.4.20", features = [] }
+simple_logger = "4.3.3"
+regex = { version = "1.10.2", features = [] }
+libloading = "0.8.1"
+pkg-config = { version = "0.3.28", features = [] }
